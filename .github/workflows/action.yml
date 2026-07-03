@@ -11,6 +11,8 @@
 
 
 
+
+# this is another.....
 # name: Environment Information
 
 # on: push
@@ -40,16 +42,36 @@
 
 
 
+# This is another here...
+# name: Calculator Tests
 
-name: Calculator Tests
+# on: push
+
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - uses: actions/checkout@v4
+
+#       - run: node src/calculator.test.js
+
+
+# This is home work.📝
+
+# [Q1] Print the following dynamically in the action:
+# Hello Swapnil
+
+
+name: Hello Swapnil
 
 on: push
 
 jobs:
-  test:
+  hello Checking:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - run: echo "Hello from GitHub Actions"
 
-      - run: node src/calculator.test.js
+
