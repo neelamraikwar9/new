@@ -68,10 +68,11 @@ name: Hello Swapnil
 on: push
 
 jobs:
-  hello Checking:
+  hello:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "Hello from GitHub Actions"
+    - name: Print workflow name dynamically
+    run: echo "${{ github.workflow}}"
 
 
