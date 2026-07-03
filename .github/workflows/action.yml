@@ -73,6 +73,6 @@ jobs:
 
     steps:
     - name: Print workflow name dynamically
-    run: echo "${{ github.workflow}}"
+      run: echo "${{ github.workflow}}"
 
 
