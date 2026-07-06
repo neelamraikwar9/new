@@ -15,7 +15,7 @@
 # =================================
 
 
-name: Dynamic Information Printer
+name: Formatted Receipt Workflow
 
 on: 
  push:
